@@ -9,7 +9,7 @@ class Conexion {
 
    public function conectar(){
      
-      $mysqli = new mysqli('localhost','root','','comedor',3306);
+      $mysqli = new mysqli('localhost','root','','transporte',3306);
 
       if ($mysqli->connect_errno) {
          header('Location: /');
